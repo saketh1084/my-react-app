@@ -1,0 +1,52 @@
+.contact{
+    max-width: 990px;
+    margin: 2em auto;
+  
+}
+input{
+    width: 100%;
+    padding: .7em;
+    margin-bottom: 1em;
+    border:.3em double var(--mainColor);
+    outline: none;
+    font-size: 1.1rem;
+}
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+}
+.btnBox{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.btn{
+    border:2px solid transparent;
+    border-radius:  2em;
+    background-image: linear-gradient(#fff, #fff),
+    radial-gradient(circle at bottom right, purple,orange);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+}
+.Submitdetails{
+    display: inline-block;
+    font-size: 1.2rem;
+    padding:.5em 1.5em;
+    text-decoration:none;
+    color:#301934;
+}
+
+@media screen and(max-width:768px){
+    .contact{
+        width: 70%;
+        margin: 1em auto;
+    }
+    input{
+        width: 100%;
+        padding: .3em;
+        border:.1em solid var(--mainColor);
+       
+    }
+}

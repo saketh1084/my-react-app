@@ -1,0 +1,45 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+.container.container-flex{
+    width: 100%;
+}
+
+footer{
+    position: fixed;
+    bottom:0%;
+    background-color:black;
+    width: 100%;
+    padding:0.5em;
+}
+.line{
+    width:30%;
+    margin: 0 auto;
+}
+hr{
+    margin-bottom: 0.5em;
+}
+.icon{
+    margin: right 1em;
+}
+
+.copyright{
+    text-align: center;
+    color:white;
+    margin-bottom: 0.5em;
+   }
+   /*media queries*/
+
+   @media screen and (max-width:1024px){
+    .line{
+        width:40%;
+    }
+       }
+       @media screen and (max-width:568px){
+        hr{
+            display:none;
+           
+            
+        }
+       }
